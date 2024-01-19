@@ -1,0 +1,35 @@
+Hello ML enthusiasts,
+
+Let's chanllenge ourselves and work on a real-life problem. Our task is predicting the score of an assignment using how a student interacted with the ChatGPT system. 
+
+In the first assignment, you kindly provided your ChatGPT chat history and seperately your assignment were graded by our TAs. We are interested in predicting scores by extracting information from ChatGPT. 
+
+Since this is a real-world challenge and we don't know whether a significant level of accouracy is even possible, we will evaluate your projects considering the creativity and the different approaches you use for this assignment. 
+
+
+
+In the dataset you will find two files:
+
+- dataset.zip : Compressed file for different ChatGPT chats as HTML files. Unique code in each file name represents the ID of the instance. 
+
+- scores.csv : This file has multiple rows corresponds to different file. First column is the ID that you can use to match HTML files and second column is the HW scores that you are going to predict.
+
+- Assignment.ipynb : IPython notebook for the assignment.
+
+
+
+Couple of hints:
+
+- Dataset may have malformed files. You still need to predict scores for them (think about data imputation and prior distributions)
+
+- Students may only ask some questions to ChatGPT. Predicting score require matching prompts with questions. (vector space models, text clustering etc.) 
+
+- Scores range between (0,100) that means you need be careful about the total score.
+
+
+
+There will be plenty more assumptions or smart analysis you can conduct. Ali provided a video tutorial and starter code for this assignment. Please make sure to apply any necessary changes and improvements.
+
+All Q&A about the project will be done on SUCourse. This exchange will help everyone to benefit from the information shared by everyone. 
+
+To deliver the project, we need one public Github repository for each team. Your repository must contain a README file with all the necessary descriptions and report the findings and approaches used to work on this task. Please also refer to the slides that we share about the project.
